@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 1px;
+    max-width: 600px;
+    padding-top: 50px;
+}
+
+.index {
+    font-size: var(--fz-xxl);
+    font-weight: 400;
+    color: var(--green);
+}
+
+.heading {
+    font-family: var(--font-sans);
+    font-size: 20px;
+    color: var(--lightest-slate);
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background: var(--lightest-navy);
+    align-self: center;
+    margin-left: 5px;
+}
+
+
+@media  screen and (max-width:760px){
+  .container{
+    justify-content: flex-start;
+    padding-top:20px ;
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+}
